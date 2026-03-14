@@ -17,50 +17,9 @@ export default function Home() {
           </p>
         </header>
 
-        {/* Body text */}
-        <section aria-label="Descrizione della mostra">
-          <div className="font-body text-darkgray text-lg space-y-6 leading-relaxed">
-            <p>
-              È in arrivo alle Scuderie del Quirinale la mostra <em>Tesori dei Faraoni</em>, un viaggio
-              straordinario nel cuore dell&apos;antica civiltà egizia. Il progetto espositivo è
-              un&apos;occasione imperdibile per poter osservare 130 capolavori provenienti dai più
-              importanti musei dell&apos;Egitto. Le opere in mostra regaleranno al pubblico la
-              possibilità di scoprire questa storia incredibile: dalle origini della civiltà faraonica
-              fino allo splendore dei grandi sovrani del Nuovo Regno e del Terzo Periodo Intermedio,
-              fino ad arrivare alle scoperte archeologiche più significative degli ultimi anni.
-            </p>
-            <p>
-              Attraverso sei sezioni tematiche, la mostra esplora la complessità della società egizia,
-              l&apos;autorità divina dei faraoni, la vita quotidiana, le credenze religiose, le pratiche
-              funerarie e le più recenti scoperte archeologiche. Dalle spettacolari statue di Sennefer,
-              Ramses VI e Thutmose III ai raffinati gioielli reali, dagli oggetti di uso quotidiano
-              finemente lavorati ai sarcofagi decorati con simboli sacri, l&apos;esposizione svela
-              l&apos;eccezionale sofisticazione artistica e la profonda spiritualità che hanno reso
-              l&apos;antico Egitto una delle civiltà più affascinanti della storia.
-            </p>
-            <p>
-              La mostra è il risultato di un&apos;importante iniziativa di diplomazia culturale tra
-              Italia ed Egitto. Questa collaborazione ha reso possibile il prestito straordinario di
-              capolavori provenienti da alcuni tra i più importanti musei egiziani, tra cui il Museo
-              Egizio del Cairo e il Museo di Luxor. Molte di queste opere saranno esposte in Italia
-              per la prima volta. La mostra vede la prestigiosa collaborazione del Museo Egizio di
-              Torino che firma importanti contributi e un prestito eccezionale.
-            </p>
-            <p>
-              La mostra, curata dal Dr. Tarek El Awady, sarà accompagnata da un catalogo curato dal
-              Dr. Zahi Hawass e pubblicato da Allemandi Editore.
-            </p>
-            <p>
-              <em>Tesori dei Faraoni</em> rappresenta un&apos;occasione imperdibile per esplorare
-              l&apos;eredità straordinaria di una civiltà che continua ad esercitare uno
-              straordinario fascino sul mondo contemporaneo.
-            </p>
-          </div>
-        </section>
-
-        {/* Audioguide section */}
-        <section aria-label="Audioguida" className="mt-14">
-          <h2 className="font-title text-2xl text-primary mt-10 mb-4">
+        {/* Audioguide section — above article text */}
+        <section aria-label="Audioguida" className="mb-10">
+          <h2 className="font-title text-2xl text-primary mb-4">
             Ascolta l&apos;Audioguida
           </h2>
           <p className="font-body text-darkgray text-base leading-relaxed mb-6">
@@ -68,8 +27,50 @@ export default function Home() {
             Roberto Giacobbo vi condurranno in un viaggio straordinario attraverso la Storia, i
             misteri e le meraviglie dell&apos;antico Egitto.
           </p>
-
           <AudioPlayer />
+        </section>
+
+        {/* Body text — card white on softwhite background */}
+        <section aria-label="Descrizione della mostra">
+          <div className="bg-white rounded-2xl shadow-sm px-8 py-8">
+            <div className="font-body text-darkgray text-lg space-y-6 leading-relaxed text-justify">
+              <p>
+                È in arrivo alle Scuderie del Quirinale la mostra <em>Tesori dei Faraoni</em>, un viaggio
+                straordinario nel cuore dell&apos;antica civiltà egizia. Il progetto espositivo è
+                un&apos;occasione imperdibile per poter osservare 130 capolavori provenienti dai più
+                importanti musei dell&apos;Egitto. Le opere in mostra regaleranno al pubblico la
+                possibilità di scoprire questa storia incredibile: dalle origini della civiltà faraonica
+                fino allo splendore dei grandi sovrani del Nuovo Regno e del Terzo Periodo Intermedio,
+                fino ad arrivare alle scoperte archeologiche più significative degli ultimi anni.
+              </p>
+              <p>
+                Attraverso sei sezioni tematiche, la mostra esplora la complessità della società egizia,
+                l&apos;autorità divina dei faraoni, la vita quotidiana, le credenze religiose, le pratiche
+                funerarie e le più recenti scoperte archeologiche. Dalle spettacolari statue di Sennefer,
+                Ramses VI e Thutmose III ai raffinati gioielli reali, dagli oggetti di uso quotidiano
+                finemente lavorati ai sarcofagi decorati con simboli sacri, l&apos;esposizione svela
+                l&apos;eccezionale sofisticazione artistica e la profonda spiritualità che hanno reso
+                l&apos;antico Egitto una delle civiltà più affascinanti della storia.
+              </p>
+              <p>
+                La mostra è il risultato di un&apos;importante iniziativa di diplomazia culturale tra
+                Italia ed Egitto. Questa collaborazione ha reso possibile il prestito straordinario di
+                capolavori provenienti da alcuni tra i più importanti musei egiziani, tra cui il Museo
+                Egizio del Cairo e il Museo di Luxor. Molte di queste opere saranno esposte in Italia
+                per la prima volta. La mostra vede la prestigiosa collaborazione del Museo Egizio di
+                Torino che firma importanti contributi e un prestito eccezionale.
+              </p>
+              <p>
+                La mostra, curata dal Dr. Tarek El Awady, sarà accompagnata da un catalogo curato dal
+                Dr. Zahi Hawass e pubblicato da Allemandi Editore.
+              </p>
+              <p>
+                <em>Tesori dei Faraoni</em> rappresenta un&apos;occasione imperdibile per esplorare
+                l&apos;eredità straordinaria di una civiltà che continua ad esercitare uno
+                straordinario fascino sul mondo contemporaneo.
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* Footer */}
