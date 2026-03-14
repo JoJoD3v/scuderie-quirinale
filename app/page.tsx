@@ -54,7 +54,7 @@ export default function Home() {
               </p>
               <p>
                 La mostra è il risultato di un&apos;importante iniziativa di diplomazia culturale tra
-                Italia ed Egitto. Questa collaborazione ha reso possibile il prestito straordinario di
+                Italia ed Egitto. Questa collaborazione rende possibile il prestito straordinario di
                 capolavori provenienti da alcuni tra i più importanti musei egiziani, tra cui il Museo
                 Egizio del Cairo e il Museo di Luxor. Molte di queste opere saranno esposte in Italia
                 per la prima volta. La mostra vede la prestigiosa collaborazione del Museo Egizio di
